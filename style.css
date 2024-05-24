@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.watch-container {
+    width: 500px;
+    background-color: black;
+    padding: 20px;
+}
+
+.timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 50px;
+    margin: 20px 0 40px;
+}
+
+.timer span:not(.mar) {
+    width: 75px;
+    height: 75px;
+    text-align: center;
+}
+
+.timer .mar {
+    margin: 5px;
+}
+
+.control {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.control div {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+
+.control div:nth-child(2) {
+    transform: scale(1.5);
+    background-color: orangered;
+    border: none;
+}
